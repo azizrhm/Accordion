@@ -1,0 +1,235 @@
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: rgb(9, 9, 93);
+    color: #fff;
+}
+
+.swiper_container {
+    position: relative;
+    height: 450px;
+    max-width: 95%;
+    margin: 15px auto;
+}
+
+/* body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+} */
+
+.swiper {
+    width: 100%;
+    height: 100%;
+    cursor: grab;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    position: relative;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide::before {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+    overflow: hidden;
+    /* backdrop-filter: blur(10px) */
+}
+
+.swiper-slide:nth-child(1)::before {
+    background-image: url(images/HD/montagne.jpg);
+}
+
+.swiper-slide:nth-child(2)::before {
+    background-image: url(images/HD/nature.webp);
+}
+
+.swiper-slide:nth-child(3)::before {
+    background-image: url(images/HD/paysage1.jpg);
+}
+
+.swiper-slide:nth-child(4)::before {
+    background-image: url(images/HD/photographe.jpg);
+}
+
+.swiper-slide:nth-child(5)::before {
+    background-image: url(images/HD/verre_transparent.jpg);
+}
+
+.swiper-slide:nth-child(6)::before {
+    background-image: url(images/HD/nature.webp);
+}
+
+.swiper-slide:nth-child(7)::before {
+    background-image: url(images/HD/paysage1.jpg);
+}
+
+.swiper-slide:nth-child(8)::before {
+    background-image: url(images/HD/photographe.jpg);
+}
+
+.swiper-slide:nth-child(9)::before {
+    background-image: url(images/HD/montagne.jpg);
+}
+
+
+
+
+
+.swiper-pagination .swiper-pagination-bullet {
+    width: 15px;
+    height: 15px;
+    background-color: rgb(255, 255, 255);
+    /* border-radius: 0; */
+    border-radius: 50%;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+    color: white;
+}
+
+.flex {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    flex-direction: column;
+}
+
+.flex h1 {
+    color: rgb(197, 197, 225);
+    font-size: 55px;
+}
+
+button {
+    display: block;
+    padding: 10px 25px;
+    border-radius: 100px;
+    border: 2px solid rgb(9, 9, 125);
+    background: #fff;
+    color: rgb(9, 9, 125);
+    transition: all 0.5s linear;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(9, 9, 125);
+    color: #fff;
+}
+
+
+/*============== ACCORDION 1 ==================*/
+
+
+#accordion {
+    min-height: 500px;
+    width: 100%;
+    background-color: #34495e;
+
+}
+
+#accordion h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    padding-top: 2rem;
+    color: red;
+    font-size: 25px;
+}
+
+.accordion {
+    width: 90%;
+    max-width: 1000px;
+    margin: 2rem auto;
+}
+
+.accordion-item {
+    background-color: #fff;
+    color: #090909;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+}
+
+.accordion-item-header {
+    padding: 0.5rem 3rem 0.5rem 1rem;
+    min-height: 3.5rem;
+    line-height: 1.25rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.accordion-item-header::after {
+    content: "\002B";
+    font-size: 2rem;
+    position: absolute;
+    right: 1rem;
+    transition: transform 0.2s ease-in-out;
+}
+
+.accordion-item-header.active::after {
+    content: "\2212";
+}
+
+.accordion-item-body {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.accordion-item-body-content {
+    padding: 1rem;
+    line-height: 1.5rem;
+    border-top: 1px solid;
+    border-image: linear-gradient(to right, transparent, #34495e, transparent) 1;
+}
+
+
+/* .accordion-item-header.active+.accordion-item-body {
+    max-height: auto; */

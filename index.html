@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Navbar responsive Accordion Carrousel</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Poppins:ital,wght@0,200;0,400;0,600;1,300;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <!---==============  NAVBAR  ===============---->
+
+    <header>
+
+        <nav class="navbar">
+            <a href="#" class="nav-branding"> RHM </a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#carrousel" class="nav-link"> RESTAURANT </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#hover" class="nav-link"> HOVER </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#Clip-Path" class="nav-link"> CLIP-PATH</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#accordion" class="nav-link"> ACCORDION </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#formulaire" class="nav-link"> CONTACT </a>
+                </li>
+            </ul>
+            <div class="humburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+
+    </header>
+
+    <!-- <div class="arrow-up">
+        <i class="fa-solid fa-arrow-up-from-arc"></i>
+    </div> -->
+    <!---==========  SWIPER JAVASCRIPT ============---->
+
+    <section class="slider_container" id="carrousel" style="margin-top: 25px;">
+
+        <div class="container">
+
+            <h1 class="title-restaurant"><span class="some">Some</span> <span class="lal">pictures</span> </h1>
+
+            <div class="swiper card_slider">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="img_box">
+                            <img src="images/RESTAURANT/gallery-1.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="img_box">
+                            <img src="images/RESTAURANT/gallery-2.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="img_box">
+                            <img src="images/RESTAURANT/gallery-3.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="img_box">
+                            <img src="images/RESTAURANT/gallery-4.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="img_box">
+                            <img src="images/RESTAURANT/gallery-5.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="img_box">
+                            <img src="images/RESTAURANT/gallery-6.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="img_box">
+                            <img src="images/RESTAURANT/gallery-7.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="img_box">
+                            <img src="images/RESTAURANT/gallery-8.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="img_box">
+                            <img src="images/RESTAURANT/gallery-4.jpg" alt="">
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <!---========= BOX WITH HOVER EFFECT ========--->
+
+    <main id="hover" >
+        <div class="grid grid-1">
+            <div class="col">
+                <img src="images/andreas-gucklhorn-mawU2PoJWfU-unsplash.jpg" alt="" srcset="">
+                <div class="content">
+                    <h2>Rivière</h2>
+                    <p>Joli paysage à explorer</p>
+                </div>
+            </div>
+            <div class="col">
+                <img src="images/qingbao-meng-01_igFr7hd4-unsplash.jpg" alt="" srcset="">
+                <div class="content">
+                    <h2>Rivière</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Nulla
+                        dae eos suscipit
+                        architecto cum! Eveniet.
+                        Rem ad neque nulla quo incidunt, repudiandae officiis? Molestiae atque </p>
+                </div>
+            </div>
+            <div class="col">
+                <img src="images/sebastian-unrau-v4e3JI7DDHI-unsplash.jpg" alt="" srcset="">
+                <div class="content">
+                    <h2>Rivière</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Nulla
+                        dae eos suscipit
+                        architecto cum! Eveniet.
+                        Rem ad neque nulla quo incidunt, repudiandae officiis? Molestiae atque </p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <!---=======  BOX WITH CLIP-PATH EFFECT =======---->
+
+    <main id="Clip-Path">
+        <h1 style="color:red;text-align: center;">Animation avec <span style="color: blue;"> Clip-Path</span> </h1>
+        <div class="grid  grid-2">
+            <div class="col">
+                <img src="images/HD/montagne.jpg" alt="" srcset="">
+                <div class="content2">
+                    <h2>Rivière</h2>
+                    <p>Joli paysage à explorer</p>
+                </div>
+            </div>
+            <div class="col">
+                <img src="images/HD/nature.webp" alt="" srcset="">
+                <div class="content2">
+                    <h2>Rivière</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Nulla
+                        dae eos suscipit
+                        architecto cum! Eveniet.
+                        Rem ad neque nulla quo incidunt, repudiandae officiis? Molestiae atque </p>
+                </div>
+            </div>
+            <div class="col">
+                <img src="images/HD/paysage1.jpg" alt="" srcset="">
+                <div class="content2">
+                    <h2>Rivière</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Nulla
+                        dae eos suscipit
+                        architecto cum! Eveniet.
+                        Rem ad neque nulla quo incidunt, repudiandae officiis? Molestiae atque </p>
+                </div>
+            </div>
+            <div class="col">
+                <img src="images/HD/photographe.jpg" alt="" srcset="">
+                <div class="content2">
+                    <h2>Rivière</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Nulla
+                        dae eos suscipit
+                        architecto cum! Eveniet.
+                        Rem ad neque nulla quo incidunt, repudiandae officiis? Molestiae atque </p>
+                </div>
+            </div>
+            <div class="col">
+                <img src="images/HD/cristal.jpeg" alt="" srcset="">
+                <div class="content2">
+                    <h2>Rivière</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Nulla
+                        dae eos suscipit
+                        architecto cum! Eveniet.
+                        Rem ad neque nulla quo incidunt, repudiandae officiis? Molestiae atque </p>
+                </div>
+            </div>
+            <div class="col">
+                <img src="images/HD/verre_transparent.jpg" alt="" srcset="">
+                <div class="content2">
+                    <h2>Rivière</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Nulla
+                        dae eos suscipit
+                        architecto cum! Eveniet.
+                        Rem ad neque nulla quo incidunt, repudiandae officiis? Molestiae atque </p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <!---======= NEW ACCORDION =======---->
+
+    <div id="accordion">
+
+        <div class="accordion">
+
+            <div class="accordion-item">
+                <button class="accordion-header">
+                    <strong> Qui sommes-nous ? </strong>
+                    <i class="fa-solid fa-angle-down"></i>
+                </button>
+                <div class="accordion-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quaerat molestias ipsam amet
+                    recusandae facilis.
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <button class="accordion-header">
+                    <strong> Quels sont nos objectifs ? </strong>
+                    <i class="fa-solid fa-angle-down"></i>
+                </button>
+                <div class="accordion-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quaerat molestias ipsam amet
+                    recusandae facilis.lorem*50
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos consequuntur, similique in qui laborum
+                    soluta modi quam magni saepe, illum mollitia. Eos modi eligendi maxime. Odit repellat doloribus
+                    nostrum
+                    quisquam!
+
+                    Sed, tempora. Explicabo quaerat quisquam obcaecati optio animi voluptatibus cum neque deserunt
+                    accusantium, accusamus corrupti facere quo velit natus libero iusto? Maiores eum animi ipsam nisi
+                    quaerat aperiam modi id.
+                    Repellendus, at quia, esse molestias eum atque, consectetur explicabo quod recusandae autem earum
+                    corporis quibusdam ex ipsa nobis voluptatibus. In cumque blanditiis sit iste, ab a officiis eligendi
+                    vel
+                    temporibus!
+                    Qui dolorem vitae inventore laboriosam molestias, porro praesentium corrupti dolor voluptate id
+                    pariatur
+                    similique voluptatem aliquam neque modi commodi. Qui nisi aut beatae nemo ad? Quis neque cumque illo
+                    quisquam!
+                    Cupiditate vero ipsum blanditiis voluptates laborum. Inventore aut quia, explicabo dolores vitae
+                    iure
+                    quam, nisi neque
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <button class="accordion-header">
+                    <strong> Sommes-nous certifiés ? </strong>
+                    <i class="fa-solid fa-angle-down"></i>
+                </button>
+                <div class="accordion-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quaerat molestias ipsam amet
+                    recusandae facilis.
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <button class="accordion-header">
+                    <strong> Que proposons-nous ? </strong>
+                    <i class="fa-solid fa-angle-down"></i>
+                </button>
+                <div class="accordion-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quaerat molestias ipsam amet
+                    recusandae facilis.
+                </div>
+            </div>
+
+        </div>
+        <div class="accordion">
+
+            <div class="accordion-item">
+                <button class="accordion-header">
+                    <strong> Qui sommes-nous ? </strong>
+                    <i class="fa-solid fa-angle-down"></i>
+                </button>
+                <div class="accordion-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quaerat molestias ipsam amet
+                    recusandae facilis.
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <button class="accordion-header">
+                    <strong> Quels sont nos objectifs ? </strong>
+                    <i class="fa-solid fa-angle-down"></i>
+                </button>
+                <div class="accordion-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quaerat molestias ipsam amet
+                    recusandae facilis.lorem*50
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos consequuntur, similique in qui laborum
+                    soluta modi quam magni saepe, illum mollitia. Eos modi eligendi maxime. Odit repellat doloribus
+                    nostrum
+                    quisquam!
+
+                    Sed, tempora. Explicabo quaerat quisquam obcaecati optio animi voluptatibus cum neque deserunt
+                    accusantium, accusamus corrupti facere quo velit natus libero iusto? Maiores eum animi ipsam nisi
+                    quaerat aperiam modi id.
+                    Repellendus, at quia, esse molestias eum atque, consectetur explicabo quod recusandae autem earum
+                    corporis quibusdam ex ipsa nobis voluptatibus. In cumque blanditiis sit iste, ab a officiis eligendi
+                    vel
+                    temporibus!
+                    Qui dolorem vitae inventore laboriosam molestias, porro praesentium corrupti dolor voluptate id
+                    pariatur
+                    similique voluptatem aliquam neque modi commodi. Qui nisi aut beatae nemo ad? Quis neque cumque illo
+                    quisquam!
+                    Cupiditate vero ipsum blanditiis voluptates laborum. Inventore aut quia, explicabo dolores vitae
+                    iure
+                    quam, nisi neque
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <button class="accordion-header">
+                    <strong> Sommes-nous certifiés ? </strong>
+                    <i class="fa-solid fa-angle-down"></i>
+                </button>
+                <div class="accordion-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quaerat molestias ipsam amet
+                    recusandae facilis.
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <button class="accordion-header">
+                    <strong> Que proposons-nous ? </strong>
+                    <i class="fa-solid fa-angle-down"></i>
+                </button>
+                <div class="accordion-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quaerat molestias ipsam amet
+                    recusandae facilis.
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+     <!---======= CUSTOMIZE JS FORMULAIRE =======---->
+
+     <div id="customize-formulaire">
+         <div class="main">
+             <!-- <div class="form-container a-form-container" id="a-form-container">
+                 <form action="" class="form" id="a-form">
+                     <h2 class="form_title f-title">  Create Account</h2>
+                     <div class="form__icons"></div>
+                     <span class="form__span"> or use email for registration </span>
+                     <input type="text" class="form__input" placeholder="Name">
+                     <input type="text" class="form__input" placeholder="Email">
+                     <input type="password" class="form__input" placeholder="Password">
+                     <button class="form__button form-button form-submit"> SIGN UP</button>
+                 </form>
+             </div> -->
+             <div class="form-container b-form-container" id="b-form-container">
+                <form action="" class="form" id="b-form">
+                    <h2 class="form_title f-title">  Sign in to website </h2>
+                    <div class="form__icons"></div>
+                    <span class="form__span"> or use your email account </span>
+                    <input type="text" class="form__input" placeholder="Email">
+                    <input type="password" class="form__input" placeholder="Password">
+                    <a class="form__link"> Forget your password ?</a>
+                    <button class="form__button form-button form-submit"> SIGN IN</button>           
+                </form>
+            </div>
+
+            <!-- <div class="switch" id="switch-out">
+                <div class="switch__circle"></div>
+                <div class="switch__circle switch__circle--t"></div>
+                <div class="switch__container" id="switch-c1">
+                    <h2 class="switch__title f_title">Welcome back !</h2>
+                    <p class="switch__description f_description">
+                        To keep connected with us please login with your personal info
+                    </p>
+                    <button class="switch__button form-button form-submit"> SIGN IN </button>
+                </div>
+                <div class="switch__container is-hidden" id="switch-c2">
+                    <h2 class="switch__title f_title"> Hello Friend !</h2>
+                    <p class="switch__description f_description">
+                        Enter your personal details and start journey with us
+                    </p>
+                    <button class="switch__button form-button form-submit"> SIGN UP </button>
+                </div>
+            </div> -->
+
+         </div>
+     </div>
+
+
+
+
+
+    <!---======= FORMULAIRE =======---->
+
+    <div id="formulaire">
+        <div class="formulaire">
+            <h1>Rejoignez-nous</h1>
+            <form action="#" method="post">
+
+                <div class="input-group-flex">
+                    <div class="input-group">
+                        <label for="lname">Nom :</label>
+                        <input type="text" name="lname" id="lname" required placeholder="Votre nom ....">
+                    </div>
+                    <div class="input-group">
+                        <label for="fname">Prénom :</label>
+                        <input type="text" name="fname" id="fname" required placeholder="Votre prénom ....">
+                    </div>
+                </div>
+
+                <div class="input-group-flex unique">
+                    <div class="input-group">
+                        <select name="preference" id="preference">
+                            <option value="1"> Votre sport préféré </option>
+                            <option value="2"> Footbal </option>
+                            <option value="3"> Footbal </option>
+                            <option value="4"> Footbal </option>
+                            <option value="5"> Footbal </option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <label for="adresse">Adresse :</label>
+                    <input type="text" name="adresse" id="adresse" required placeholder="Votre adresse ....">
+                </div>
+                <div class="input-group">
+                    <label for="commentaire">Commentaire :</label>
+                    <textarea type="textarea" name="commentaire" id="commentaire" cols="30" rows="5" required
+                        placeholder="Votre ressenti ....">
+                    </textarea>
+                </div>
+                <div class="buttons">
+                    <input type="submit"  class="form__button form-button form-submit" value="ENVOYER">  
+                    <input type="reset" class="form__button form-button form-submit" value="ANNULER">  
+
+                </div>
+            </form>
+        </div>
+    </div>
+    <!---- 
+    <div>
+        <div class="sece">
+            Sexe :
+            <input type="radio" name="sexe"> &nbsp masculin
+            <input type="radio" name="sexe">féminin
+        </div>
+    </div>
+    ---->
+
+    <!---======= COPY PASTE =======---->
+
+    <section class="copy-paste">
+        <h1> COPIER COLLER LE TEXTE </h1>
+        <div class="container-copy-paste">
+            <textarea id="myInput" placeholder="Ecrivez quelque chose ..."></textarea>
+            <input placeholder="Collez ici ..." />
+            <button onclick="copyPaste()" class="btn"> Copiez le texte </button>
+        </div>
+    </section>
+
+    <!-- <div class="arrow-up">
+        <i class="fa-regular fa-arrow-up-from-arc"></i>
+    </div> -->
+
+
+    <!---======= CALCULATOR =======---->
+
+
+    <div class="calculator-body">
+        <div class="calculator">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <input type="text" class="screen" placeholder="0" id="screen">
+            <table>
+
+                <tr>
+                    <td><button style="color: #ff0000;" onclick="clr()"> C </button></td>
+                    <td><button style="color: deepskyblue;" onclick="dis('/')"> / </button></td>
+                    <td><button style="color: deepskyblue;" onclick="dis('%')"> % </button></td>
+                    <td><button style="color: deepskyblue;" onclick="backspace()">
+                            <i class="fas fa-backspace"></i>
+                        </button></td>
+                </tr>
+
+                <tr>
+                    <td><button onclick="dis('7')"> 7 </button></td>
+                    <td><button onclick="dis('8')"> 8 </button></td>
+                    <td><button onclick="dis('9')"> 9 </button></td>
+                    <td><button style="color: deepskyblue;" onclick="dis('*')"> x </button></td>
+                </tr>
+
+                <tr>
+                    <td><button onclick="dis('4')"> 4 </button></td>
+                    <td><button onclick="dis('5')"> 5 </button></td>
+                    <td><button onclick="dis('6')"> 6 </button></td>
+                    <td><button style="color: deepskyblue;" onclick="dis('-')"> - </button></td>
+                </tr>
+
+                <tr>
+                    <td><button onclick="dis('1')"> 1 </button></td>
+                    <td><button onclick="dis('2')"> 2 </button></td>
+                    <td><button onclick="dis('3')"> 3 </button></td>
+                    <td><button style="color: deepskyblue;" onclick="dis('+')"> + </button></td>
+                </tr>
+
+                <tr>
+                    <td><button onclick="dis('0')"> 0 </button></td>
+                    <td><button onclick="dis('.')"> . </button></td>
+                    <td colspan="3"><button class="equalsToBtn" onclick="solve('')"> = </button></td>
+                    <td></td>
+                </tr>
+
+            </table>
+        </div>
+    </div>
+
+    <!---================= REVIEW CUSTOMER =================---->
+
+
+    <section class="review" id="review">
+    
+        <h3 class="sub-heading"> customer's review </h3>
+        <h1 class="heading"> what they say </h1>
+    
+        <div class="swiper-container review-slider">
+    
+            <div class="swiper-wrapper">
+    
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/messi.jpg" alt="">
+                        <div class="user-info">
+                            <h3>Aziz RAHMAN</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugiat consequuntur repellendus aperiam deserunt nihil, corporis fugit voluptatibus voluptate totam neque illo placeat eius quis laborum aspernatur quibusdam. Ipsum, magni.</p>
+                </div>
+    
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/messi.jpg" alt="">
+                        <div class="user-info">
+                            <h3>Lionel Messi</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugiat consequuntur repellendus aperiam deserunt nihil, corporis fugit voluptatibus voluptate totam neque illo placeat eius quis laborum aspernatur quibusdam. Ipsum, magni.</p>
+                </div>
+    
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/neymar.jpeg" alt="">
+                        <div class="user-info">
+                            <h3>Neymar Junior</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugiat consequuntur repellendus aperiam deserunt nihil, corporis fugit voluptatibus voluptate totam neque illo placeat eius quis laborum aspernatur quibusdam. Ipsum, magni.</p>
+                </div>
+    
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/kylian.jpg" alt="">
+                        <div class="user-info">
+                            <h3>Kylian Mbappé</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugiat consequuntur repellendus aperiam deserunt nihil, corporis fugit voluptatibus voluptate totam neque illo placeat eius quis laborum aspernatur quibusdam. Ipsum, magni.</p>
+                </div>
+    
+            </div>
+    
+        </div>
+        
+    </section>
+
+    <!---================= FOOTER =================---->
+
+    <footer>
+        <div class="content-footer">
+            <div class="left box">
+                <div class="upper">
+                    <div class="topic">About Us</div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, tenetur odit corporis inventore
+                        exercitation, similique fuga, assumenda officiis qui, consequatur
+                        facere reprehenderit sunt quidem? Consequatur repellendus soluta et sed illum incidunt iure!</p>
+                </div>
+                <div class="lower">
+                    <div class="topic">Contact Us</div>
+                    <div class="phone">
+                        <a href="#"><i class="fas fa-phone-volume"></i>+33695740456</a>
+                    </div>
+                    <div class="email">
+                        <a href="htpps://www.gmail.com">
+                            <i class="fas fa-envelope">
+                            </i>azizrhmbtssio2020@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+            <div class="middle box">
+                <div class="topic">Our Services</div>
+                <div><a href="#">Web designing</a></div>
+                <div><a href="#">Frontend Devlopment</a></div>
+                <div><a href="#">Backend Devlopment</a></div>
+                <div><a href="#">Web designing</a></div>
+                <div><a href="#">Web designing</a></div>
+            </div>
+            <div class="right box">
+                <div class="topic">Subscribe Us</div>
+                <form action="#">
+                    <input type="text" placeholder="Enter email adress">
+                    <input type="submit" value="Send">
+                    <div class="media-icons">
+                        <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com" class="instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.twitter.com" class="twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.youtube.com" class="youtube"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
+
+                    </div>
+                </form>
+
+            </div>
+
+        </div>
+        <div class="bottom">
+            <p>Copyright 2020 <a href="https://www.instagram.com"> &nbsp; Aziz Rahman &nbsp;</a>All right reserved</p>
+        </div>
+    </footer>
+
+    <a href="#" class="updown"><i class="fa-solid fa-arrow-up"></i></a>
+
+
+
+
+    <!--===============   Swiper JS   ==================-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <!-- ==============   SCROLL REVEAL   =================-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!--===============     Script extern   ==================-->
+    <script src="index.js"></script>
+</body>
+
+</html>
